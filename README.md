@@ -16,10 +16,18 @@ Then under AWS services search for `lambda`.
 ## Build the language model
 Next login to <https://developer.amazon.com/>. Go to <https://developer.amazon.com/alexa/console/ask> and `create skill`.  
 
-Follow the instructions above, use a lower case `color picker`, but use the `nlu.json` instead.
+Follow the instructions above, use a lower case `color picker`, but use the `skill.json` instead.
 Do not forget to enter the ARN from the first section under endpoint.
 At the very end do not forget to `SAVE MODEL` and `BUILD MODEL`.
 
 
 ## The alexa app frontend
 The new skill should now appear under <https://alexa.amazon.de/spa/index.html#skills/?ref-suffix=nav_nav>.
+
+## Other python examples & how-tos
+
+See the official [repository](https://github.com/alexa?utf8=%E2%9C%93&q=python&type=&language=)
+And a very simple Flask based framework for developing skills: <https://github.com/johnwheeler/flask-ask>
+
+A python [howto])(https://medium.com/@mr_rigden/how-to-make-an-alexa-skill-with-python-cb8a6a6c4d85)
+
